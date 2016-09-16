@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		EFA5F11B19AE349200E2F340 /* Tools */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EFA5F11E19AE349200E2F340 /* Build configuration list for PBXAggregateTarget "Tools" */;
+			buildPhases = (
+			);
+			dependencies = (
+				EFA5F12019AE34BF00E2F340 /* PBXTargetDependency */,
+				EFA5F12219AE34BF00E2F340 /* PBXTargetDependency */,
+			);
+			name = Tools;
+			productName = Tools;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		EF8A965219CE005C0031D4B3 /* JSGenGWT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF8A965019CE005C0031D4B3 /* JSGenGWT.cpp */; };
+		EFA16FAF199FD6030062CB11 /* JSJSONParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA16FAD199FD6030062CB11 /* JSJSONParser.cpp */; };
+		EFA16FB319A01A900062CB11 /* JSAnalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA16FB119A01A900062CB11 /* JSAnalysis.cpp */; };
+		EFA16FBF19A131670062CB11 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA16FBE19A131670062CB11 /* main.cpp */; };
+		EFA16FC119A131670062CB11 /* CompileJL.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EFA16FC019A131670062CB11 /* CompileJL.1 */; };
+		EFA16FC719A1319D0062CB11 /* JSUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA16FC519A1319D0062CB11 /* JSUtils.cpp */; };
+		EFA16FCA19A131A70062CB11 /* JSObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA16FC819A131A70062CB11 /* JSObject.cpp */; };
+		EFA16FCE19A131C10062CB11 /* JSBufferedInputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA16FCC19A131C10062CB11 /* JSBufferedInputStream.cpp */; };
+		EFA16FCF19A131C10062CB11 /* JSFileInputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA16FCD19A131C10062CB11 /* JSFileInputStream.cpp */; };
+		EFA16FD319A131D10062CB11 /* JSFileOutputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA16FD019A131D10062CB11 /* JSFileOutputStream.cpp */; };
+		EFA16FD419A131D10062CB11 /* JSOutputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA16FD119A131D10062CB11 /* JSOutputStream.cpp */; };
+		EFA16FD819A131EC0062CB11 /* JSLex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA16FD519A131EC0062CB11 /* JSLex.cpp */; };
+		EFA16FD919A131EC0062CB11 /* JSStripComment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA16FD719A131EC0062CB11 /* JSStripComment.cpp */; };
+		EFA16FEA19A1324B0062CB11 /* JSBufferedInputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA16FDD19A1324B0062CB11 /* JSBufferedInputStream.cpp */; };
+		EFA16FEB19A1324B0062CB11 /* JSFileInputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA16FDE19A1324B0062CB11 /* JSFileInputStream.cpp */; };
+		EFA16FEC19A1324B0062CB11 /* JSFileOutputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA16FDF19A1324B0062CB11 /* JSFileOutputStream.cpp */; };
+		EFA16FED19A1324B0062CB11 /* JSLex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA16FE119A1324B0062CB11 /* JSLex.cpp */; };
+		EFA16FEE19A1324B0062CB11 /* JSObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA16FE319A1324B0062CB11 /* JSObject.cpp */; };
+		EFA16FEF19A1324B0062CB11 /* JSOutputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA16FE519A1324B0062CB11 /* JSOutputStream.cpp */; };
+		EFA16FF019A1324B0062CB11 /* JSStripComment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA16FE719A1324B0062CB11 /* JSStripComment.cpp */; };
+		EFA16FF119A1324B0062CB11 /* JSUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA16FE819A1324B0062CB11 /* JSUtils.cpp */; };
+		EFA16FF519A133C60062CB11 /* JSParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA16FF319A133C60062CB11 /* JSParser.cpp */; };
+		EFA16FF819A166B80062CB11 /* JSGenObjectiveC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA16FF619A166B80062CB11 /* JSGenObjectiveC.cpp */; };
+		EFA3C6F3199E6ECA00651989 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA3C6F2199E6ECA00651989 /* main.cpp */; };
+		EFA3C6F5199E6ECA00651989 /* AnalyzeJSON.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EFA3C6F4199E6ECA00651989 /* AnalyzeJSON.1 */; };
+		EFA59A5C19AA374900B7A7C8 /* JSGenJava.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFA59A5A19AA374900B7A7C8 /* JSGenJava.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFA5F11F19AE34BF00E2F340 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFA3C6E7199E6ECA00651989 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFA3C6EE199E6ECA00651989;
+			remoteInfo = AnalyzeJSON;
+		};
+		EFA5F12119AE34BF00E2F340 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFA3C6E7199E6ECA00651989 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFA16FBB19A131670062CB11;
+			remoteInfo = CompileJL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EFA16FBA19A131670062CB11 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				EFA16FC119A131670062CB11 /* CompileJL.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EFA3C6ED199E6ECA00651989 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				EFA3C6F5199E6ECA00651989 /* AnalyzeJSON.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EF8A965019CE005C0031D4B3 /* JSGenGWT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSGenGWT.cpp; sourceTree = "<group>"; };
+		EF8A965119CE005C0031D4B3 /* JSGenGWT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSGenGWT.h; sourceTree = "<group>"; };
+		EFA16FAD199FD6030062CB11 /* JSJSONParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSJSONParser.cpp; sourceTree = "<group>"; };
+		EFA16FAE199FD6030062CB11 /* JSJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSJSONParser.h; sourceTree = "<group>"; };
+		EFA16FB119A01A900062CB11 /* JSAnalysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSAnalysis.cpp; sourceTree = "<group>"; };
+		EFA16FB219A01A900062CB11 /* JSAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSAnalysis.h; sourceTree = "<group>"; };
+		EFA16FBC19A131670062CB11 /* CompileJL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CompileJL; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA16FBE19A131670062CB11 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EFA16FC019A131670062CB11 /* CompileJL.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CompileJL.1; sourceTree = "<group>"; };
+		EFA16FC519A1319D0062CB11 /* JSUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JSUtils.cpp; path = Common/JSUtils.cpp; sourceTree = SOURCE_ROOT; };
+		EFA16FC619A1319D0062CB11 /* JSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSUtils.h; path = Common/JSUtils.h; sourceTree = SOURCE_ROOT; };
+		EFA16FC819A131A70062CB11 /* JSObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JSObject.cpp; path = Common/JSObject.cpp; sourceTree = SOURCE_ROOT; };
+		EFA16FC919A131A70062CB11 /* JSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSObject.h; path = Common/JSObject.h; sourceTree = SOURCE_ROOT; };
+		EFA16FCB19A131B80062CB11 /* JSInputStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSInputStream.h; path = Common/JSInputStream.h; sourceTree = SOURCE_ROOT; };
+		EFA16FCC19A131C10062CB11 /* JSBufferedInputStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JSBufferedInputStream.cpp; path = Common/JSBufferedInputStream.cpp; sourceTree = SOURCE_ROOT; };
+		EFA16FCD19A131C10062CB11 /* JSFileInputStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JSFileInputStream.cpp; path = Common/JSFileInputStream.cpp; sourceTree = SOURCE_ROOT; };
+		EFA16FD019A131D10062CB11 /* JSFileOutputStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JSFileOutputStream.cpp; path = Common/JSFileOutputStream.cpp; sourceTree = SOURCE_ROOT; };
+		EFA16FD119A131D10062CB11 /* JSOutputStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JSOutputStream.cpp; path = Common/JSOutputStream.cpp; sourceTree = SOURCE_ROOT; };
+		EFA16FD219A131D10062CB11 /* JSOutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSOutputStream.h; path = Common/JSOutputStream.h; sourceTree = SOURCE_ROOT; };
+		EFA16FD519A131EC0062CB11 /* JSLex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JSLex.cpp; path = Common/JSLex.cpp; sourceTree = SOURCE_ROOT; };
+		EFA16FD619A131EC0062CB11 /* JSLex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSLex.h; path = Common/JSLex.h; sourceTree = SOURCE_ROOT; };
+		EFA16FD719A131EC0062CB11 /* JSStripComment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JSStripComment.cpp; path = Common/JSStripComment.cpp; sourceTree = SOURCE_ROOT; };
+		EFA16FDD19A1324B0062CB11 /* JSBufferedInputStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JSBufferedInputStream.cpp; path = Common/JSBufferedInputStream.cpp; sourceTree = SOURCE_ROOT; };
+		EFA16FDE19A1324B0062CB11 /* JSFileInputStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JSFileInputStream.cpp; path = Common/JSFileInputStream.cpp; sourceTree = SOURCE_ROOT; };
+		EFA16FDF19A1324B0062CB11 /* JSFileOutputStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JSFileOutputStream.cpp; path = Common/JSFileOutputStream.cpp; sourceTree = SOURCE_ROOT; };
+		EFA16FE019A1324B0062CB11 /* JSInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSInputStream.h; path = Common/JSInputStream.h; sourceTree = SOURCE_ROOT; };
+		EFA16FE119A1324B0062CB11 /* JSLex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JSLex.cpp; path = Common/JSLex.cpp; sourceTree = SOURCE_ROOT; };
+		EFA16FE219A1324B0062CB11 /* JSLex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSLex.h; path = Common/JSLex.h; sourceTree = SOURCE_ROOT; };
+		EFA16FE319A1324B0062CB11 /* JSObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JSObject.cpp; path = Common/JSObject.cpp; sourceTree = SOURCE_ROOT; };
+		EFA16FE419A1324B0062CB11 /* JSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSObject.h; path = Common/JSObject.h; sourceTree = SOURCE_ROOT; };
+		EFA16FE519A1324B0062CB11 /* JSOutputStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JSOutputStream.cpp; path = Common/JSOutputStream.cpp; sourceTree = SOURCE_ROOT; };
+		EFA16FE619A1324B0062CB11 /* JSOutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSOutputStream.h; path = Common/JSOutputStream.h; sourceTree = SOURCE_ROOT; };
+		EFA16FE719A1324B0062CB11 /* JSStripComment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JSStripComment.cpp; path = Common/JSStripComment.cpp; sourceTree = SOURCE_ROOT; };
+		EFA16FE819A1324B0062CB11 /* JSUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JSUtils.cpp; path = Common/JSUtils.cpp; sourceTree = SOURCE_ROOT; };
+		EFA16FE919A1324B0062CB11 /* JSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSUtils.h; path = Common/JSUtils.h; sourceTree = SOURCE_ROOT; };
+		EFA16FF319A133C60062CB11 /* JSParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSParser.cpp; sourceTree = "<group>"; };
+		EFA16FF419A133C60062CB11 /* JSParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSParser.h; sourceTree = "<group>"; };
+		EFA16FF619A166B80062CB11 /* JSGenObjectiveC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSGenObjectiveC.cpp; sourceTree = "<group>"; };
+		EFA16FF719A166B80062CB11 /* JSGenObjectiveC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSGenObjectiveC.h; sourceTree = "<group>"; };
+		EFA3C6EF199E6ECA00651989 /* AnalyzeJSON */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AnalyzeJSON; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA3C6F2199E6ECA00651989 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EFA3C6F4199E6ECA00651989 /* AnalyzeJSON.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AnalyzeJSON.1; sourceTree = "<group>"; };
+		EFA59A5A19AA374900B7A7C8 /* JSGenJava.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSGenJava.cpp; sourceTree = "<group>"; };
+		EFA59A5B19AA374900B7A7C8 /* JSGenJava.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSGenJava.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFA16FB919A131670062CB11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA3C6EC199E6ECA00651989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFA16FB019A01A6D0062CB11 /* Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				EFA16FB219A01A900062CB11 /* JSAnalysis.h */,
+				EFA16FB119A01A900062CB11 /* JSAnalysis.cpp */,
+			);
+			name = Analysis;
+			sourceTree = "<group>";
+		};
+		EFA16FB419A0F1600062CB11 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EFA16FC619A1319D0062CB11 /* JSUtils.h */,
+				EFA16FC519A1319D0062CB11 /* JSUtils.cpp */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		EFA16FBD19A131670062CB11 /* CompileJL */ = {
+			isa = PBXGroup;
+			children = (
+				EFA16FF219A133B20062CB11 /* Compiler */,
+				EFA16FDC19A1323F0062CB11 /* Common */,
+				EFA16FBE19A131670062CB11 /* main.cpp */,
+				EFA16FC019A131670062CB11 /* CompileJL.1 */,
+			);
+			path = CompileJL;
+			sourceTree = "<group>";
+		};
+		EFA16FDA19A132030062CB11 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EFA16FB419A0F1600062CB11 /* Utils */,
+				EFA3C700199E798C00651989 /* Objects */,
+				EFA3C6FB199E6EF800651989 /* File */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		EFA16FDB19A132170062CB11 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				EFA16FAE199FD6030062CB11 /* JSJSONParser.h */,
+				EFA16FAD199FD6030062CB11 /* JSJSONParser.cpp */,
+			);
+			name = Json;
+			sourceTree = "<group>";
+		};
+		EFA16FDC19A1323F0062CB11 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EFA16FDD19A1324B0062CB11 /* JSBufferedInputStream.cpp */,
+				EFA16FDE19A1324B0062CB11 /* JSFileInputStream.cpp */,
+				EFA16FDF19A1324B0062CB11 /* JSFileOutputStream.cpp */,
+				EFA16FE019A1324B0062CB11 /* JSInputStream.h */,
+				EFA16FE119A1324B0062CB11 /* JSLex.cpp */,
+				EFA16FE219A1324B0062CB11 /* JSLex.h */,
+				EFA16FE319A1324B0062CB11 /* JSObject.cpp */,
+				EFA16FE419A1324B0062CB11 /* JSObject.h */,
+				EFA16FE519A1324B0062CB11 /* JSOutputStream.cpp */,
+				EFA16FE619A1324B0062CB11 /* JSOutputStream.h */,
+				EFA16FE719A1324B0062CB11 /* JSStripComment.cpp */,
+				EFA16FE819A1324B0062CB11 /* JSUtils.cpp */,
+				EFA16FE919A1324B0062CB11 /* JSUtils.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		EFA16FF219A133B20062CB11 /* Compiler */ = {
+			isa = PBXGroup;
+			children = (
+				EFA16FF419A133C60062CB11 /* JSParser.h */,
+				EFA16FF319A133C60062CB11 /* JSParser.cpp */,
+				EFA16FF719A166B80062CB11 /* JSGenObjectiveC.h */,
+				EFA16FF619A166B80062CB11 /* JSGenObjectiveC.cpp */,
+				EFA59A5A19AA374900B7A7C8 /* JSGenJava.cpp */,
+				EFA59A5B19AA374900B7A7C8 /* JSGenJava.h */,
+				EF8A965019CE005C0031D4B3 /* JSGenGWT.cpp */,
+				EF8A965119CE005C0031D4B3 /* JSGenGWT.h */,
+			);
+			name = Compiler;
+			sourceTree = "<group>";
+		};
+		EFA3C6E6199E6ECA00651989 = {
+			isa = PBXGroup;
+			children = (
+				EFA3C6F1199E6ECA00651989 /* AnalyzeJSON */,
+				EFA16FBD19A131670062CB11 /* CompileJL */,
+				EFA3C6F0199E6ECA00651989 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFA3C6F0199E6ECA00651989 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFA3C6EF199E6ECA00651989 /* AnalyzeJSON */,
+				EFA16FBC19A131670062CB11 /* CompileJL */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFA3C6F1199E6ECA00651989 /* AnalyzeJSON */ = {
+			isa = PBXGroup;
+			children = (
+				EFA16FDA19A132030062CB11 /* Common */,
+				EFA16FDB19A132170062CB11 /* Json */,
+				EFA16FB019A01A6D0062CB11 /* Analysis */,
+				EFA3C6F2199E6ECA00651989 /* main.cpp */,
+				EFA3C6F4199E6ECA00651989 /* AnalyzeJSON.1 */,
+			);
+			path = AnalyzeJSON;
+			sourceTree = "<group>";
+		};
+		EFA3C6FB199E6EF800651989 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				EFA16FCB19A131B80062CB11 /* JSInputStream.h */,
+				EFA16FCC19A131C10062CB11 /* JSBufferedInputStream.cpp */,
+				EFA16FCD19A131C10062CB11 /* JSFileInputStream.cpp */,
+				EFA16FD219A131D10062CB11 /* JSOutputStream.h */,
+				EFA16FD019A131D10062CB11 /* JSFileOutputStream.cpp */,
+				EFA16FD119A131D10062CB11 /* JSOutputStream.cpp */,
+				EFA16FD619A131EC0062CB11 /* JSLex.h */,
+				EFA16FD519A131EC0062CB11 /* JSLex.cpp */,
+				EFA16FD719A131EC0062CB11 /* JSStripComment.cpp */,
+			);
+			name = File;
+			sourceTree = "<group>";
+		};
+		EFA3C700199E798C00651989 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				EFA16FC919A131A70062CB11 /* JSObject.h */,
+				EFA16FC819A131A70062CB11 /* JSObject.cpp */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFA16FBB19A131670062CB11 /* CompileJL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA16FC219A131670062CB11 /* Build configuration list for PBXNativeTarget "CompileJL" */;
+			buildPhases = (
+				EFA16FB819A131670062CB11 /* Sources */,
+				EFA16FB919A131670062CB11 /* Frameworks */,
+				EFA16FBA19A131670062CB11 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CompileJL;
+			productName = CompileJL;
+			productReference = EFA16FBC19A131670062CB11 /* CompileJL */;
+			productType = "com.apple.product-type.tool";
+		};
+		EFA3C6EE199E6ECA00651989 /* AnalyzeJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA3C6F8199E6ECA00651989 /* Build configuration list for PBXNativeTarget "AnalyzeJSON" */;
+			buildPhases = (
+				EFA3C6EB199E6ECA00651989 /* Sources */,
+				EFA3C6EC199E6ECA00651989 /* Frameworks */,
+				EFA3C6ED199E6ECA00651989 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnalyzeJSON;
+			productName = AnalyzeJSON;
+			productReference = EFA3C6EF199E6ECA00651989 /* AnalyzeJSON */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFA3C6E7199E6ECA00651989 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "William Woody";
+			};
+			buildConfigurationList = EFA3C6EA199E6ECA00651989 /* Build configuration list for PBXProject "AnalyzeJSON" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EFA3C6E6199E6ECA00651989;
+			productRefGroup = EFA3C6F0199E6ECA00651989 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFA3C6EE199E6ECA00651989 /* AnalyzeJSON */,
+				EFA16FBB19A131670062CB11 /* CompileJL */,
+				EFA5F11B19AE349200E2F340 /* Tools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFA16FB819A131670062CB11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA16FEA19A1324B0062CB11 /* JSBufferedInputStream.cpp in Sources */,
+				EFA16FEE19A1324B0062CB11 /* JSObject.cpp in Sources */,
+				EFA16FF819A166B80062CB11 /* JSGenObjectiveC.cpp in Sources */,
+				EFA16FEC19A1324B0062CB11 /* JSFileOutputStream.cpp in Sources */,
+				EFA16FEF19A1324B0062CB11 /* JSOutputStream.cpp in Sources */,
+				EFA16FBF19A131670062CB11 /* main.cpp in Sources */,
+				EFA16FF519A133C60062CB11 /* JSParser.cpp in Sources */,
+				EF8A965219CE005C0031D4B3 /* JSGenGWT.cpp in Sources */,
+				EFA59A5C19AA374900B7A7C8 /* JSGenJava.cpp in Sources */,
+				EFA16FF019A1324B0062CB11 /* JSStripComment.cpp in Sources */,
+				EFA16FEB19A1324B0062CB11 /* JSFileInputStream.cpp in Sources */,
+				EFA16FED19A1324B0062CB11 /* JSLex.cpp in Sources */,
+				EFA16FF119A1324B0062CB11 /* JSUtils.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA3C6EB199E6ECA00651989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA16FCA19A131A70062CB11 /* JSObject.cpp in Sources */,
+				EFA16FC719A1319D0062CB11 /* JSUtils.cpp in Sources */,
+				EFA16FD419A131D10062CB11 /* JSOutputStream.cpp in Sources */,
+				EFA16FB319A01A900062CB11 /* JSAnalysis.cpp in Sources */,
+				EFA16FCF19A131C10062CB11 /* JSFileInputStream.cpp in Sources */,
+				EFA3C6F3199E6ECA00651989 /* main.cpp in Sources */,
+				EFA16FD819A131EC0062CB11 /* JSLex.cpp in Sources */,
+				EFA16FD319A131D10062CB11 /* JSFileOutputStream.cpp in Sources */,
+				EFA16FD919A131EC0062CB11 /* JSStripComment.cpp in Sources */,
+				EFA16FCE19A131C10062CB11 /* JSBufferedInputStream.cpp in Sources */,
+				EFA16FAF199FD6030062CB11 /* JSJSONParser.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFA5F12019AE34BF00E2F340 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFA3C6EE199E6ECA00651989 /* AnalyzeJSON */;
+			targetProxy = EFA5F11F19AE34BF00E2F340 /* PBXContainerItemProxy */;
+		};
+		EFA5F12219AE34BF00E2F340 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFA16FBB19A131670062CB11 /* CompileJL */;
+			targetProxy = EFA5F12119AE34BF00E2F340 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EFA16FC319A131670062CB11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFA16FC419A131670062CB11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFA3C6F6199E6ECA00651989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EFA3C6F7199E6ECA00651989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EFA3C6F9199E6ECA00651989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFA3C6FA199E6ECA00651989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFA5F11C19AE349200E2F340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFA5F11D19AE349200E2F340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFA16FC219A131670062CB11 /* Build configuration list for PBXNativeTarget "CompileJL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA16FC319A131670062CB11 /* Debug */,
+				EFA16FC419A131670062CB11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA3C6EA199E6ECA00651989 /* Build configuration list for PBXProject "AnalyzeJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA3C6F6199E6ECA00651989 /* Debug */,
+				EFA3C6F7199E6ECA00651989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA3C6F8199E6ECA00651989 /* Build configuration list for PBXNativeTarget "AnalyzeJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA3C6F9199E6ECA00651989 /* Debug */,
+				EFA3C6FA199E6ECA00651989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA5F11E19AE349200E2F340 /* Build configuration list for PBXAggregateTarget "Tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA5F11C19AE349200E2F340 /* Debug */,
+				EFA5F11D19AE349200E2F340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFA3C6E7199E6ECA00651989 /* Project object */;
+}
