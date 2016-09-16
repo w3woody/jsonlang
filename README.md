@@ -187,7 +187,7 @@ The second tool takes a .jl file and generates Objective C and/or Java which can
 
 ### CompileJL
 
-    CompileJL [-objc (class prefix)] [-java (class path)] [-readonly] (infile) (outdir)
+    CompileJL [-objc (class prefix)] [-java (class path)] [-gwt (class path)] [-readonly] (infile) (outdir)
 
     Parses a .jl file from infile and generates the class files needed to parse the
     specification language into the output directory specified. If the directory does
@@ -217,6 +217,11 @@ The second tool takes a .jl file and generates Objective C and/or Java which can
         Phone.java
 
     inside the directory specified, with classpath "com.test".
+    
+    -gwt (class path)
+    
+    Like the -java option above, but the classes constructed will be built suitable for
+    use within a GWT application as client code. (See gwtproject.org for more information.)
 
     -readonly
 
